@@ -1,7 +1,7 @@
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "100%px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
@@ -11,17 +11,35 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
     document.body.style.backgroundColor = "white";
 }
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-    dropdown[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var dropdownContent = this.nextElementSibling;
-        if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-        } else {
-            dropdownContent.style.display = "block";
-        }
-    });
+function makeChildInBody(tagName, text, Class, id, styles){
+    let element = document.createElement(tagName)
+    element.innerText = text
+    document.getElementsByTagName("body")[0].appendChild(element)
+    if(!tagName){
+        throw new Error("Tag name is not define!")
+        return
+    }
+    if(!text){
+        throw new Error("Text is not define!")
+        return
+    }
+    if(Class){
+        element.classList.add(Class)
+    }
+    if(id){
+        element.setAttribute("id", id)
+    }
+    if(styles){
+        element.style.cssText = styles
+    }
 }
+function openNav2() {
+    document.getElementById("mySidenav3").style.width = "100%";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav2() {
+    document.getElementById("mySidenav3").style.width = "0";
+    document.body.style.backgroundColor = "white";
+  }

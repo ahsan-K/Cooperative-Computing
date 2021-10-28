@@ -23,59 +23,145 @@
 </head>
 
 <body>
+    <div id="mySidenav3" class="sidenav3">
+        <a class="a" href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+        <div class="top">
+            <a class="a" href="#">About Us</a>
+            <a class="a" href="#">Services</a>
+            <a class="a" href="#">Sucess Stories</a>
+            <a class="a" href="#">Portfolio</a>
+            <a class="a" href="#">Methodology</a>
+            <a class="a" href="#">Blog</a>
+            <a class="a" href="#">Careers</a>
+            <a class="a" href="#">Contact us</a>
+        </div>
+        <div class="row">
+            <div class="col-7 lefticon">
+                <p>© Copyright 2019, Cooperative Computing, All Rights Reserved</p>
+            </div>
+            <div class="col-5 lefticon1">
+                <a href="">Terms of Services</a>
+                <a href="">Privacy & Policy</a>
+                <div>
+                    <img style="padding-left: 5px;" src="images/Capture.PNG" alt="">
+                    <img style="padding-left: 5px;" src="images/twicon.PNG" alt="">
+                    <img style="padding-left: 5px;" src="images/iticon.PNG" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
     <nav class="mynavbar">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-9">
-                    <img src="images/togle.PNG" alt="">
-                <img src="images/logo.PNG" alt="">
-                <a href="">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Projects <i style="padding: 5px;" class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">Sucess Stories</a>
-                      <a href="#">Portfolio</a>
+                <div style="margin-top: 10px !important;" class="col-8">
+                    <img onclick="openNav2()" class="no" src="images/togle.PNG" alt="">
+                    <img src="images/logo.PNG" alt="">
+                    <a style="padding-left: 13px !important;" class="main-ankers" href="">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Projects <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Sucess Stories</a>
+                            <a href="#">Portfolio</a>
+                        </div>
                     </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">Services <i style="padding: 5px;" class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Services <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Custom Web Development</a>
+                            <a href="#">Ecommerse Develoment</a>
+                            <a href="#">Product Develoment</a>
+                            <a href="#">CMS Develoment</a>
+                            <a href="#">Mobile Develoment</a>
+                            <a href="#">Website Design</a>
+                            <a href="#">Cloud Services</a>
+                            <a href="#">Strategic Consulting</a>
+                        </div>
                     </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">Solutions <i style="padding: 5px;" class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Solutions <i style="padding: 5px;"
+                                class="fa fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Start up</a>
+                            <a href="#">Mid Size</a>
+                            <a href="#">Enterprize</a>
+                        </div>
                     </div>
-                  </div>
-                  <a href="">Methodology</a>
-                  <a href="">Contact us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Industries <i style="padding: 5px;"
+                                class="fa fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Media & Advertisement</a>
+                            <a href="#">Finance & Banking</a>
+                            <a href="#">Ecommerse & Mcomerse</a>
+                            <a href="#">Transportation</a>
+                            <a href="#">Insuarance</a>
+                            <a href="#">Healthcare</a>
+                            <a href="#">Education & Human Resources</a>
+                            <a href="#">Legal & State</a>
+                        </div>
+                    </div>
+                    <a class="main-ankers" href="">Methodology</a>
+                    <a class="main-ankers" href="">Contact us</a>
 
                 </div>
-                <div class="col-3"></div>
-            </div>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-            <button class="dropdown-btn">Dropdown
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <div class="col-4 call">
+                    <a href="">Call us to get started</a>
+                    <button><i style="font-size: 17px;" class="fa fa-phone"></i> +1 (214) 295-5997</button>
+                    <img onclick="openNav()" class="on" src="images/togle.PNG" alt="">
+                </div>
             </div>
         </div>
     </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="top">
+            <a class="a" href="">Home</a>
+            <div class="dropdown1">
+                <button class="dropbtn1">Projects <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                <div class="dropdown-content1">
+                    <a href="#">Sucess Stories</a>
+                    <a href="#">Portfolio</a>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <button class="dropbtn1">Services <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                <div class="dropdown-content1">
+                    <a href="#">Custom Web Development</a>
+                    <a href="#">Ecommerse Develoment</a>
+                    <a href="#">Product Develoment</a>
+                    <a href="#">CMS Develoment</a>
+                    <a href="#">Mobile Develoment</a>
+                    <a href="#">Website Design</a>
+                    <a href="#">Cloud Services</a>
+                    <a href="#">Strategic Consulting</a>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <button class="dropbtn1">Solutions <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                <div class="dropdown-content1">
+                    <a href="#">Start up</a>
+                    <a href="#">Mid Size</a>
+                    <a href="#">Enterprize</a>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <button class="dropbtn1">Industries <i style="padding: 5px;" class="fa fa-angle-down"></i></button>
+                <div class="dropdown-content1">
+                    <a href="#">Media & Advertisement</a>
+                    <a href="#">Finance & Banking</a>
+                    <a href="#">Ecommerse & Mcomerse</a>
+                    <a href="#">Transportation</a>
+                    <a href="#">Insuarance</a>
+                    <a href="#">Healthcare</a>
+                    <a href="#">Education & Human Resources</a>
+                    <a href="#">Legal & State</a>
+                </div>
+            </div>
+            <a class="a" href="">Methodology</a>
+            <a class="a" href="">Contact us</a>
+        </div>
+    </div>
 
 </body>
 <script src="navbar.js"></script>

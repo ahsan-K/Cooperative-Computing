@@ -348,3 +348,46 @@
   .sidenav3 {padding-top: 15px;}
   .sidenav3 a {font-size: 18px;}
 }  
+
+
+.slick-slide img {
+  display: unset;
+}
+
+.slick-prev:before {
+  color: #3c3c3c;
+  font-size: 50px;
+}
+
+.slick-next:before {
+  font-size: 50px;
+  opacity: 1;
+  color: #3c3c3c;
+}
+
+.slick-prev {
+  left: -60px;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots li button:before {
+  color: #03ff75;
+}
+
+@media screen and (min-width:1024px) and (max-width:1240px) {
+  .slick-prev:before {
+      color: rgba(199, 197, 197, 0.685);
+      font-size: 50px;
+      display: none;
+  }
+
+  .slick-next:before {
+      font-size: 50px;
+      opacity: 1;
+      color: rgba(199, 197, 197, 0.685);
+      display: none;
+  }
+}

@@ -220,6 +220,54 @@ button{
     font-size: var(--fontsizemd);
     font-weight: lighter;
 }
+.bg {
+    background-image: url("images/banner-img.png");
+    background-size: cover;
+    height: 1050px;
+}
+.banner-1{
+    padding-top: 200px;
+
+}
+.banner-1 .banner1 h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.banner-1 .banner1 p{
+    color:#7c98e7;
+    font-size: 1.5rem;
+}
+.banner-1 .banner2{
+    margin-top: 40px;
+}
+.banner-1 .banner3{
+    margin-top: 40px;
+}
+.banner-1 .banner3 h1{
+    color:#fff;
+    font-size: 1.8rem;
+}
+.banner-1 .banner3 p{
+    color:#fff;
+    font-size: 1rem;
+}
+.banner-1 a{
+    margin: 30px 0 0 120px;
+    font-size: 1.2rem;
+}
+.banner-1 .a1{
+    padding-left:20px;
+    font-size: 18px;
+}
+.banner-1 .a1 .circle{
+    transition: .7s;
+}
+.banner-1 .a1 .circle:hover{
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--aqua);
+    border-radius: 50px;
+}
 .fadein{
     width: 100%;
     height: auto;
@@ -305,7 +353,8 @@ button{
 }
 .of .img4{
     position: absolute;
-    left: -15px;
+    top: -290px;
+    left: -250px;
 }
 .cst .icon span {
     border-radius: 100px;
@@ -346,7 +395,106 @@ button{
 .cards_section .cb1 h3{
     color: var(--aqua);
 }
+.input_section{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.input_section h1{
+    font-weight: 600;
+    color: var(--purple);
+    font-size: var(--fontsizelg);
+    font-family:Zen Kaku Gothic New, sans-serif; 
+}
+.input_section p{
+    color: var(--silver);
+    font-size: 20px;
+    margin: 20px auto; 
+    font-family:Zen Kaku Gothic New, sans-serif; 
+}
+.eVmnGS {
+    width: 100%;
+    height: 4px;
+    overflow: hidden;
+    background-color: rgba(39, 92, 174, 0.3);
+}
+.dKXULb {
+    height: 100%;
+    width: 12.5%;
+    background-color: rgb(39, 92, 174);
+    transition: all 0.4s ease 0s;
+}
+.input_section2{
+    width: 100%;
+    margin-top: 180px;
+    height: 300px;
+}
+.input_section2 h3{
+    padding-left: 160px;
+    color: var(--silver);
+    font-size: 25px;
+}
+.input_section2 .input_btn{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.input_section2 .input_btn input{
+    outline: none;
+    border: none;
+    width: 700px;
+    font-size: 30px;
+   font-weight: lighter;
+   font-family:Zen Kaku Gothic New, sans-serif;  ;
+    border-bottom: 1px solid var(--silver) ;
+}
+.input_section2 .width{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
 
+.input_section2 .input_btn3{
+   
+    margin-top: 20px;
+    margin-left: 220px;
+    width: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(39, 92, 174);
+    transition: .2s;
+    cursor: pointer;
+}
+.input_section2 .input_btn3:hover{
+    background-color: rgba(39, 92, 174, 0.3);
+}
+.input_section2 h6{
+    color: var(--silver);
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+.input_top{
+    padding-top: 100px;
+}
+.input_section2 .input_top .input_btn2{
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(39, 92, 174);
+    transition: .1s;
+    cursor: pointer;
+}
+.input_section2 .input_top .input_btn2:hover{
+    background-color: rgba(13, 87, 199, 0.3);
+}
 
 @media screen and (min-width:320px) and (max-width:600px){  
 
@@ -434,6 +582,32 @@ button{
         width: auto;
         font-size: 30px;
     }
+    .input_section h1{
+        font-size: 20px;
+    }
+    .input_section2{
+        height: auto;
+    }
+    .input_section2 h3{
+        padding-left: 30px;
+        font-size: 17px;
+    }
+    .input_section2 .input_btn{
+        margin-left: 40px;
+    }
+    .input_section2 .input_btn input{
+        width: 240px;
+        font-size: 18px;
+    }
+    .input_section2 .input_btn3{
+        margin-left: 40px;
+    }
+    .input_section2 h6{
+      display: none;   
+    }
+    .input_section2 .input_top .input_btn2{
+       margin-left: 90px;
+    }
 }
 @media screen and (min-width:601px) and (max-width:770px){
     .banner_section .bg_img .hidden{
@@ -460,6 +634,9 @@ button{
     .cst .icon h3{
         font-size: 25px;
     }
+    .input_section2 .input_top .input_btn2{
+        margin-left: 140px;
+     }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
     .banner_section .bg_img .hidden{
@@ -500,9 +677,35 @@ button{
         margin-left: 0;
         padding-left: 10px;
     }
-   
+    .input_section h1{
+        font-size: 20px;
+    }
+    .input_section2{
+        height: auto;
+    }
+    .input_section2 h3{
+        padding-left: 30px;
+        font-size: 23px;
+    }
+    .input_section2 .input_btn{
+        margin-left: 40px;
+    }
+    .input_section2 .input_btn input{
+        width:540px;
+        font-size: 23px;
+    }
+    .input_section2 .input_btn3{
+        margin-left: 40px;
+    }
+    .input_section2 .input_top .input_btn2{
+       margin-left: 300px;
+    }
+    .bh{
+        background-color:var(--blue);
+    }
 }
 @media screen and (min-width:1024px) and (max-width:1240px){
+    
     .banner_section .bg_img .img1{
         width: 350px;
         top: 368px;
@@ -549,10 +752,61 @@ button{
     }
     .of .img4{
         position: absolute;
-        left: -130px;
-        top: 100px;
+        top: -230px;
+        left: -350px;
     }
     .cst .icon h3{
         width: auto;
+    }
+    .input_section h1{
+        font-size: 30px;
+    }
+    .input_section2{
+        height: auto;
+    }
+    .input_section2 h3{
+        padding-left: 100px;
+        font-size: 23px;
+    }
+    .input_section2 .input_btn{
+        margin-left: 130px;
+    }
+    .input_section2 .input_btn input{
+        width:640px;
+        font-size: 30px;
+    }
+    .input_section2 .input_btn3{
+        margin-left: 130px;
+    }
+    .input_top {
+        position: relative;
+    }
+    .input_section2 .input_top .input_btn2{
+       position: absolute;
+       right: 10px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width:700px){
+    .bg {
+        height:1500px!important;
+        margin-top: 150px;
+    }
+    .banner-1 {
+        padding-top: 80px !important;
+    }
+    .banner-1 .banner1 h1{
+        font-size: 20px !important;
+    }
+    .banner-1 .banner1 p{
+        font-size: 16px !important;
+    }
+    .banner-1 a{
+        margin:0 !important;
+        margin-top: 30px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .banner-1 .banner1 h1{
+        font-size: 40px;
     }
 }

@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+:root {
+  --blue: #041f65 ;
+  --purple:#1f276e;
+  --aqua:#2aa9e0;
+  --lightblack:#1c1c1c;
+  --silver:#7c89a1;
+  --green:#4fbb52;
+  --backgroundlgr:#8fc920;
+  --backgrounddlg:#3fb963;
+  --white: #ffffff;
+  --fontsizelg:48px;
+  --fontsizeslg:20px;
+  --fontsizemd:16px;
+  --fontsizesm:11px;
+}
 .mynavbar{
     width: 100%;
     display: flex;
@@ -367,52 +382,46 @@
   font-size: 14px;
   color: white;
 }
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav3 {padding-top: 15px;}
-  .sidenav3 a {font-size: 18px;}
-}  
-
 
 .slick-slide img {
-  display: unset;
+  display: unset !important;
 }
 
 .slick-prev:before {
-  color: #3c3c3c;
-  font-size: 50px;
+  color: #3c3c3c !important;
+  font-size: 50px !important;
 }
 
 .slick-next:before {
-  font-size: 50px;
+  font-size: 50px !important;
   opacity: 1;
-  color: #3c3c3c;
+  color: #3c3c3c !important;
 }
 
 .slick-prev {
-  left: -60px;
+  left: -65px !important;
 }
 
 .slick-dots {
-  bottom: -50px;
+  bottom: -50px !important;
 }
 
 .slick-dots li button:before {
-  color: #03ff75;
+  color: #03ff75 !important;
 }
 
 @media screen and (min-width:1024px) and (max-width:1240px) {
   .slick-prev:before {
-      color: rgba(199, 197, 197, 0.685);
-      font-size: 50px;
-      display: none;
+      color: rgba(199, 197, 197, 0.685) !important;
+      font-size: 50px !important;
+      display: none !important;
   }
 
   .slick-next:before {
-      font-size: 50px;
+      font-size: 50px !important;
       opacity: 1;
-      color: rgba(199, 197, 197, 0.685);
-      display: none;
+      color: rgba(199, 197, 197, 0.685) !important;
+      display: none !important;
   }
 }
 .hero{
@@ -655,3 +664,4 @@
   justify-content: center;
   flex-direction: column;
 }
+

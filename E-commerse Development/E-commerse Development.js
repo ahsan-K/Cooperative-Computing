@@ -43,3 +43,5 @@ function openNav2() {
     document.getElementById("mySidenav3").style.width = "0";
     document.body.style.backgroundColor = "white";
   }
+  
+  

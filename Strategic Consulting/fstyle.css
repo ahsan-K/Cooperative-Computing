@@ -1,0 +1,46 @@
+.footer-main{
+    background-color: #fcfcfc;
+    height: 600px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.footer-main .banner1{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-main .banner1 h6{
+    font-size:14px ;
+}
+.footer-main .banner1 a{
+    text-decoration: none;
+    color: #677388;
+    font-size: 13px;
+    margin:5px 0;
+}
+.footer-main .banner2 a{
+    color: #8fc920;
+}
+.footer-main .banner2 p{
+    color: #677388;
+    font-size: 13px;
+}
+.footer-main .banner2 img{
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.footer-main .banner2 .display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-main .banner2 i{
+    font-size: 26px;
+    margin: 10px 12px 0 12px;
+}
+@media only screen and (min-width: 300px) and (max-width:700px){
+    .footer-main .banner1 a{
+        font-size: 10px !important;
+    }
+}
+    

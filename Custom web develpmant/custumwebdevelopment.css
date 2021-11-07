@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --blue: #041f65 ;
+  --purple:#1f276e;
+  --aqua:#2aa9e0;
+  --lightblack:#1c1c1c;
+  --silver:#7c89a1;
+  --green:#4fbb52;
+  --backgroundlgr:#8fc920;
+  --backgrounddlg:#3fb963;
+  --white: #ffffff;
+  --fontsizelg:48px;
+  --fontsizeslg:20px;
+  --fontsizemd:16px;
+  --fontsizesm:11px;
+}
+.mynavbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+}
+.mynavbar .call a{
+  color: rgb(99, 185, 99);
+  text-decoration: none;
+  font-size: 12.8px;
+  font-weight: 500;
+  transition: .3s;
+}
+.mynavbar .call a:hover{
+  color: rgb(119, 119, 168);
+}
+.mynavbar .call button{
+  padding: 7px 20px;
+  border: none;
+  background-color: #275cae;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+.mynavbar .main-ankers{
+  color: black;
+  text-decoration: none;
+  font-size: 12.8px;
+  font-weight: 500;
+  padding-left: 10px;
+  transition: .3s;
+}
+.mynavbar .main-ankers:hover{
+  color: rgb(119, 119, 168);
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 16; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #292929; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  .sidenav .top{
+    width: 80% !important;
+    position: absolute;
+    top: 10px;
+  }
+  .sidenav .a {
+    width: 100%;
+    padding: 4px 8px 4px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    text-decoration: none;
+    color: #f1f1f1;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding-left: 5px;
+    font-size: 12.8px;
+    border: none;
+    font-weight: 500;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    transition: .3s;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none !important;
+    font-size: 12.8px;
+    border-bottom: solid .5px rgb(233, 233, 233);
+    display: block;
+    transition: .3s;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color: rgb(31, 164, 216);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:transparent;
+    opacity: .5;
+}
+@media screen and (min-width:1023px) and (max-width:3000px){ 
+  .mynavbar .call .on{
+    display: none;
+
+  }
+  .mynavbar .call{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .mynavbar{
+    padding: 3px 35px;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1200px) {
+  .mynavbar .call a{
+    font-size: 8px !important;
+  }
+  .dropdown-content a {
+    font-size: 8px !important;
+  }
+  .dropbtn {
+    font-size: 8px !important;
+  }
+  .mynavbar .main-ankers{
+    font-size:8px !important;
+  }
+  .mynavbar .call button{
+    font-size: 8px !important;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1023px) {
+  .mynavbar .call a{
+    display: none;
+  }
+  /* .s-cards .short{
+    padding-left: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  .hero1 .banner h1{
+    font-size: 35px !important;
+  }
+  .dropdown-content a {
+    display: none;
+  }
+  .hero .banner{
+    height: auto !important;
+  }
+  .hero .banner h1{
+    font-size: 35px !important;
+  }
+  .big-cards{
+    width: 100% !important;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .mynavbar .main-ankers{
+  display: none;
+  }
+  .mynavbar .call button{
+    display: none;
+  }
+  .mynavbar .no{
+    display: none;
+  }
+  .mynavbar .call{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .sidenav3{
+    display: none;
+  }
+}
+.dropbtn1 {
+  margin: 4px 0 4px 16px;
+  background-color: transparent;
+  color: white;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  outline: none !important;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #292929;
+  width: 200px;
+  z-index: 1;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: rgb(255, 255, 255);
+  padding: 16px 16px;
+  text-decoration: none !important;
+  font-size: 12.8px;
+  border-bottom: solid .5px rgb(233, 233, 233);
+  display: block;
+  transition: .3s;
+}
+
+.dropdown-content1 a:hover {color: rgb(31, 164, 216);}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+.dropdown1:hover .dropbtn1 {background-color:transparent;
+  opacity: .5;
+}
+@media screen and (min-width:320px) and (max-width:599px)  {
+  .sidenav .top{
+    width: 40% !important;
+
+  }
+  .light-text{
+    font-size: 14px !important;
+  }
+  .use-this{
+    font-size: 30px !important;
+  }
+  .big-cards p{
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width:600px) and (max-width:768px)  {
+  .sidenav .top{
+    width: 29% !important;
+
+  }
+}
+@media screen and (min-width:769px) and (max-width:1600px)  {
+  .sidenav{
+    display: none;
+  }
+}
+/* The side navigation menu */
+.sidenav3 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 16; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1f276e; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav3 .a {
+  padding: 0 8px 0 65px;
+  text-decoration: none;
+  font-size: 43px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: 300;
+}
+.sidenav3 .top{
+  height: fit-content;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav3 a:hover {
+  text-decoration: none;
+  color: #275cae;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav3 .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  color: #999191;
+  font-weight: 100 !important;
+}
+.sidenav3 .closebtn:hover{
+  color: #999191;
+}
+.sidenav3 .lefticon1{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sidenav3 .lefticon1 a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-weight: 300;
+}
+.sidenav3 .lefticon1 a:hover {
+  text-decoration: none;
+  color: #275cae;
+}
+.sidenav3 .lefticon{
+  margin-top: 50px;
+}
+.sidenav3 .lefticon p{
+  margin-left: 62px;
+  font-size: 14px;
+  color: white;
+}
+
+.slick-slide img {
+  display: unset !important;
+}
+
+.slick-prev:before {
+  color: #3c3c3c !important;
+  font-size: 50px !important;
+}
+
+.slick-next:before {
+  font-size: 50px !important;
+  opacity: 1;
+  color: #3c3c3c !important;
+}
+
+.slick-prev {
+  left: -65px !important;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+
+.slick-dots li button:before {
+  color: #03ff75 !important;
+}
+
+@media screen and (min-width:1024px) and (max-width:1240px) {
+  .slick-prev:before {
+      color: rgba(199, 197, 197, 0.685) !important;
+      font-size: 50px !important;
+      display: none !important;
+  }
+
+  .slick-next:before {
+      font-size: 50px !important;
+      opacity: 1;
+      color: rgba(199, 197, 197, 0.685) !important;
+      display: none !important;
+  }
+}
+.hero{
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  margin-top: 50px;
+}
+.hero .banner{
+  background-color: rgba(51, 71, 177, 0.80);
+  opacity: 1;
+  padding-top: 130px;
+  height: 650px;
+}
+.light-text{
+  color:#38a8e5 ;
+  font-weight: lighter;
+}
+.hero .banner h1{
+  color:white;
+  font-weight: 320;
+  margin-bottom: 20px;
+  font-size: 49px;
+}
+.hero .banner p{
+  color:white;
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+.big-cards{
+  margin-top: 80px;
+  width: 60% !important;
+}
+.use-this{
+  color: #1f276e;
+  font-weight: 350;
+  font-size: 49px;
+
+}
+.use-is{
+  color: #1f276e;
+  font-weight: 350;
+  font-size: 32px;
+  padding-top: 15px;
+
+}
+.big-cards p{
+  color: #7c89a1;
+  font-size: 18px;
+  font-weight: 350;
+
+}
+.m-cards{
+  padding-top: 25px !important;
+}
+.m-cards .set{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 20px !important;
+}
+.m-cards .set-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #ecf1fc;
+  width: 122px;
+  height: 122px;
+}
+.m-cards .set p{
+  color: #7c89a1;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 1.5!important;
+  padding-top: 8px;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.dual-color{
+  background: #8fc920;
+  background: -moz-linear-gradient(left, #8fc920 0%, #3fb963 100%);
+  background: -webkit-linear-gradient(left, #8fc920 0%, #3fb963 100%);
+  background: linear-gradient(to right, #8fc920 0%, #3fb963 100%);
+  border-radius: 6px;
+  padding: 20px 40px;
+  text-transform: capitalize;
+  font-size: var(--fontsizemd);
+  font-weight: lighter;
+  border: none;
+  color: white;
+}
+.hero1{
+  background-image: url("images/banner2.jpg");
+  background-size: cover;
+  margin-top: 50px;
+}
+.hero1 .banner{
+  background-color: rgba(51, 71, 177, 0.80);
+  opacity: 1;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero1 .banner h1{
+  color:white;
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: center;
+}
+.s-cards{
+  margin-top: 70px;
+  /* padding-left: 0 !important; */
+  margin-bottom: 50px !important;
+}
+.s-cards h1{
+  color:#1f276e;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.s-cards p{
+  color: #7c89a1;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 1.5!important;
+  padding-top: 8px;
+}
+.desktop{
+  position: relative;
+}
+.desktop .hover{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .5s;
+}
+.desktop .hover:hover{
+  opacity: .9;
+  background-color:#8fc920 ;
+}
+.desktop2{
+  position: relative;
+  margin-top: 40px;
+}
+.desktop2 .col-12{
+  margin-bottom: 40px;
+}
+.desktop2 .hover{
+  position: absolute;
+  top: 0;
+  width: 94.5%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .5s;
+}
+.desktop2 .hover:hover{
+  opacity: .6;
+  background-color:blue ;
+}
+.e-cards{
+  margin-top: 70px;
+  /* padding-left: 0 !important; */
+  margin-bottom: 50px !important;
+}
+.e-cards h1{
+  color:#1f276e;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.e-cards p{
+  color: #7c89a1;
+  font-size: 24px;
+  font-weight: 350;
+  line-height: 1.5!important;
+  padding-top: 8px;
+}
+.big-cards p{
+  color: #7c89a1;
+  font-size: 18px;
+  font-weight: 350;
+
+}
+.m-cards2{
+  padding-top: 25px !important;
+  margin-bottom: 15px;
+}
+.m-cards2 .set{
+  display: flex;
+  align-items: center;
+
+  padding: 10px 20px !important;
+}
+.m-cards2 .set-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #ecf1fc;
+  width: 64px;
+  height: 64px;
+}
+.m-cards2 .set-a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m-cards2 .set a{
+  color: #1f276e;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 1.5!important;
+  padding-top: 8px;
+  transition: .3s;
+  font-weight: 400;
+}
+.m-cards2 .set a:hover{
+  text-decoration: none !important;
+  color: #275cae;
+}
+.ce{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+

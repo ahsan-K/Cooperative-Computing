@@ -11,11 +11,13 @@
 }
 .footer-main .banner1 h6{
     font-size:14px ;
+    font-weight: 600;
 }
 .footer-main .banner1 a{
     text-decoration: none;
     color: #677388;
     font-size: 13px;
+    font-weight: 600;
     margin:5px 0;
 }
 .footer-main .banner2 a{
@@ -24,6 +26,7 @@
 .footer-main .banner2 p{
     color: #677388;
     font-size: 13px;
+    font-weight: 600;
 }
 .footer-main .banner2 img{
     width: 100%;

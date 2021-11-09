@@ -1,0 +1,197 @@
+.start-main{
+    margin-top: 150px;
+    padding-top: 20px;
+}
+.start-main .banner1 h4{
+    color: #37a9e0;
+    font-weight: 450;
+    
+}
+.start-main .banner1 h1{
+    color: #1f276e;
+    font-size: 2.7rem;
+    font-weight: 450;
+}
+.start-main .banner1 p{
+    font-size: 19px;
+    color: gray;
+    line-height: 24px;
+    font-weight: 250;
+    font-family: 'Roboto', sans-serif;
+}
+.start-main1{
+    background-image: url("images/start1.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 50px;
+}
+.midsize-main1{
+    background-image: url("images/start2.jpg");
+}
+.enterprise{
+    background-image: url("images/start3.jpg");
+}
+.start-main1 .banner1{
+    padding-top: 80px;
+}
+.start-main1 .banner1 h1{
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 450;
+}
+.start-main2 .banner1{
+    padding-top: 50px;
+}
+.start-main2 .banner1 h1{
+    color: #1f276e;
+    font-size: 2.7rem;
+    font-weight: 450;
+}
+.start-main2 .banner1 p{
+    font-size: 17px;
+    color: gray;
+    line-height: 24px;
+    font-weight: 250;
+    font-family: 'Roboto', sans-serif;
+}
+.start-main2 .banner2{
+    margin-top: 20px;
+}
+.start-main2 .banner2 .main{
+    display: flex;
+    height: auto;
+}
+.start-main2 .banner2 .main .circle{
+    border-radius: 100%;
+    height: 8px;
+    width: 8px;
+    border:solid 1px gray ;
+    margin-top: 7px;
+}
+.start-main2 .banner2 .main .circle-main{
+    border:solid 1px gray ;
+    margin-top: 7px;
+    border-radius: 100%;
+    height: 10px;
+}
+.start-main2 .banner2 .main .circle1{
+    width: 28px;
+}
+.start-main2 .banner2 .main .circle2{
+    width: 35px;
+}
+.start-main2 .banner2 .main .circle3{
+    width: 22px;
+}
+.start-main2 .banner2 .main p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 250;
+    font-family: 'Roboto', sans-serif;
+}
+.start-main2 .banner3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-main2 .banner3 button{
+    height: 60px;
+    width: 280px;
+    background-color:#65c144 ;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+.start-main3{
+    background-color: #0a3d96;
+    height: 400px;
+    margin-top: 80px;
+}
+.start-main3 .banner1{
+    padding-top: 60px;
+}
+.start-main3 .banner1 p{
+    font-size: 19px;
+    color: white;
+    line-height: 24px;
+    font-weight: 250;
+    font-family: 'Roboto', sans-serif;
+}
+.start-main3 .banner1 h1{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 250 !important;
+}
+.start-main3 .banner1 .h1{
+    font-size: 3.5rem !important;
+}
+.start-main4{
+    margin-top: 80px;
+}
+.start-main4 .banner1 img{
+    width: 100%;
+} 
+.start-main4 .banner2 h1{
+    color: #1f276e;
+    font-size: 2.7rem;
+    font-weight: 450;
+}
+.start-main4 .banner2 p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 250;
+}
+.start-main4 .banner2 button{
+    height: 60px;
+    width: 280px;
+    background-color:#65c144 ;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+.start-main5 .banner1{
+    margin-top: 50px;
+}
+.start-main5 .banner1 h1{
+    color: #1f276e;
+    font-size: 2.8rem;
+    font-weight: 450;
+}
+.start-main5 .banner1 p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 250;
+}
+.start-main5 .banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-main5 .banner2 button{
+    height: 65px;
+    width: 320px;
+    background-color:#65c144 ;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+@media only screen and (min-width: 300px) and (max-width:700px){
+    .start-main1{
+        height: auto !important;
+    }
+    .start-main1 .banner1{
+        padding-top: 0 !important;
+    }
+    .start-main1 .banner1 h1{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 450;
+    }
+    .start-main3{
+        height: auto !important;
+    }
+}

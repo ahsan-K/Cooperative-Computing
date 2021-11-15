@@ -33,7 +33,12 @@
 }
 .start-main1 .banner1{
     padding-top: 80px;
+    animation: mymove 1.5s;
 }
+@keyframes mymove {
+    from {padding-top: 40px;}
+    to {padding-top: 80px;}
+  }
 .start-main1 .banner1 h1{
     color: #fff;
     font-size: 3.2rem;
@@ -41,7 +46,12 @@
 }
 .start-main2 .banner1{
     padding-top: 50px;
+    animation: mymove1 1.5s;
 }
+@keyframes mymove1 {
+    from {padding-top: 10px;}
+    to {padding-top: 50px;}
+  }
 .start-main2 .banner1 h1{
     color: #1f276e;
     font-size: 2.7rem;
@@ -110,8 +120,13 @@
     margin-top: 80px;
 }
 .start-main3 .banner1{
-    padding-top: 60px;
+    padding-top: 80px;
+    animation: mymove2 1.5s;
 }
+@keyframes mymove2 {
+    from {padding-top: 40px;}
+    to {padding-top: 80px;}
+  }
 .start-main3 .banner1 p{
     font-size: 19px;
     color: white;
@@ -127,12 +142,21 @@
 .start-main3 .banner1 .h1{
     font-size: 3.5rem !important;
 }
-.start-main4{
-    margin-top: 80px;
+.start-main4 .banner1{
+    padding-top: 80px;
+    animation: mymove3 1.5s;
+}
+@keyframes mymove3 {
+    from {padding-top: 40px;}
+    to {padding-top: 80px;}
 }
 .start-main4 .banner1 img{
     width: 100%;
 } 
+.start-main4 .banner2{
+    padding-top: 80px;
+    animation: mymove3 1.5s;
+}
 .start-main4 .banner2 h1{
     color: #1f276e;
     font-size: 2.7rem;

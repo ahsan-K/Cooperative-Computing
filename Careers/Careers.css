@@ -39,14 +39,35 @@
     font-size: 1.4rem;
 }
 .careers-main1 .banner2{
-    padding-top: 180px;
+    padding-top: 160px;
+}
+.careers-main1 .banner2 h1{
+    margin-top: 20px;
+    animation: myh1 2s;
+}
+@keyframes myh1 {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 20px;
+    }
 }
 .careers-main1 .banner3{
-    padding: 0 40px;
+    padding: 40px 40px;
+    animation: myp 2s;
 }
 .careers-main1 .banner3 p{
     font-size: 1.1rem;
     color: gray;
+}
+@keyframes myp {
+    from {
+        padding: 0 40px;
+    }
+    to {
+        padding: 40px 40px;
+    }
 }
 .careers-main2{
     background-color: rgba(51, 71, 177, 0.80);

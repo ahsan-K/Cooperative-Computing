@@ -28,6 +28,16 @@
 .meth-main1 .banner1 h5{
     color: #3fa9e0;
     font-weight: 450;
+    animation:myh5 2s;
+    padding-top: 20px;
+}
+@keyframes myh5{
+    from {
+        padding-top: 0;
+    }
+    to {
+        padding-top: 20px;
+    }
 }
 .meth-main1 .banner1 h1{
     font-size: 2.9rem;
@@ -57,6 +67,7 @@
 .meth-main2 .banner2 h5{
     color: #3fa9e0;
     font-weight: 450;
+    padding-top: 20px;
 }
 .meth-main2 .banner2 h1{
     font-size: 2.9rem;

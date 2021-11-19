@@ -17,18 +17,64 @@
 .blog-main1 .banner1 img{
     width: 100%;
 }
+.blog-main1 .banner2 a{
+    text-decoration: none;
+}
 .blog-main1 .banner2 h2{
-    color: #1982c9;
+    color: #1982c9 ;
     font-weight: 450;
+    text-decoration: none;
 }
 .blog-main1 .banner2 h5{
     font-weight: 400;
+    color: black;
 }
 .blog-main1 .banner2 p{
     font-size: 1.2rem;
     font-weight: 400;
+    color: #000;
 }
 .p1 ul li a{
     color: black !important;
     border: none !important;
+}
+.blog1 .banner1{
+    margin-top: 60px;
+    padding-top: 80px;
+}
+.blog1 .banner1 h1{
+    font-size: 48px;
+    font-weight: 300;
+    color: #1f276e;
+    font-family: 'Roboto', sans-serif;
+}
+.blog1 .banner1 p{
+    font-size: 18px;
+    color: #7c89a1;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.blog1 .banner2 .main{
+    width: 100%;
+    height: auto;
+    padding:40px 40px;
+}
+.blog1 .banner2 .main img{
+    width: 100%;
+    padding-bottom: 20px;
+    height: 600px;
+}
+.blog1 .banner2 .main p{
+    font-size: 18px;
+    color: #7c89a1;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.blog1 .banner2 .main h1{
+    font-size: 48px;
+    font-weight: 300;
+    color: #1f276e;
+    font-family: 'Roboto', sans-serif;
 }

@@ -1,0 +1,34 @@
+.blog-main{
+    margin-top: 60px;
+}
+.blog-main .banner1{
+    padding-top: 140px;
+}
+.blog-main .banner1 h1{
+    color: #1f276e;
+    font-weight: 450;
+}
+.blog-main1{
+    padding: 20px 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%)
+}
+.blog-main1 .banner1 img{
+    width: 100%;
+}
+.blog-main1 .banner2 h2{
+    color: #1982c9;
+    font-weight: 450;
+}
+.blog-main1 .banner2 h5{
+    font-weight: 400;
+}
+.blog-main1 .banner2 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.p1 ul li a{
+    color: black !important;
+    border: none !important;
+}

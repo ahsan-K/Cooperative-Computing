@@ -1,0 +1,112 @@
+.meth-main{
+    background-image: url("../home/imagesMET/meth.jpg");
+    background-size: cover;
+    height: 520px;
+    margin-top: 80px;
+}
+.meth-main .banner1{
+    padding-top: 120px;
+}
+.meth-main .banner1 h5{
+    color: #3fa9e0;
+    font-size: 1.8rem;
+    font-weight: 450;
+}
+.meth-main .banner1 h1{
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 450;
+}
+.meth-main .banner1 p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 450;
+}
+.meth-main1{
+    margin-top: 50px;
+}
+.meth-main1 .banner1 h5{
+    color: #3fa9e0;
+    font-weight: 450;
+}
+.meth-main1 .banner1 h1{
+    font-size: 2.9rem;
+    font-weight: 450;
+}
+.meth-main1 .banner1 p{
+    font-size: 1rem;
+    font-weight: 450;
+}
+.meth-main1 .banner1 button{
+    height: 60px;
+    width: 280px;
+    background-color: #46ba5c;
+    color: #fff;
+    border: none;
+    border-radius: 2%;
+}
+.meth-main1 .banner2 img{
+    width: 100%;
+}
+.meth-main2{
+    margin-top: 50px;
+}
+.meth-main2 .banner1 img{
+    width: 100%;
+}
+.meth-main2 .banner2 h5{
+    color: #3fa9e0;
+    font-weight: 450;
+}
+.meth-main2 .banner2 h1{
+    font-size: 2.9rem;
+    font-weight: 450;
+}
+.meth-main2 .banner2 p{
+    font-size: 1rem;
+    font-weight: 450;
+}
+.meth-main2 .banner2 button{
+    height: 60px;
+    width: 280px;
+    background-color: #46ba5c;
+    color: #fff;
+    border: none;
+    border-radius: 2%;
+}
+.meth-main3{
+    background-image: url("../home/imagesMET/techdivide.jpg");
+    background-size: cover;
+    height: 400px;
+    margin-top: 80px;
+    padding-top: 70px;
+}
+.meth-main3 .banner2 {
+    padding-left: 420px;
+}
+.meth-main3 .banner1 h1{
+    font-weight: 450;
+    color: #fff;
+}
+.meth-main3 .banner1 p{
+    font-size: 1.1rem;
+    font-weight: 450;
+    color: #fff;
+}
+.meth-main3 .banner2 button{
+    height: 60px;
+    width: 280px;
+    background-color: #46ba5c;
+    color: #fff;
+    border: none;
+    border-radius: 2%;
+}
+@media only screen and (min-width: 300px) and (max-width:700px){
+    .meth-main3{
+        height: auto !important;
+        padding: 50px 0!important;
+    }
+    .meth-main3 .banner2{
+        padding-left: 50px !important;
+    }
+}

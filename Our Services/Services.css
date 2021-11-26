@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;font-family:Zen Kaku Gothic New, sans-serif; 
+
+}
+:root {
+    --blue4: #041f65 ;
+    --purples:#1f276e;
+    --aqua:#2aa9e0;
+    --lightblack:#1c1c1c;
+    --silver:#7c89a1;
+    --green:#4fbb52;
+    --backgroundlgr:#8fc920;
+    --backgrounddlg:#3fb963;
+    --white: #ffffff;
+    --fontsizelg:48px;
+    --fontsizeslg:20px;
+    --fontsizemd:16px;
+    --fontsizesm:11px;
+}
+button{
+    border: none;
+    outline: none;
+    color: var(--white);
+    cursor: pointer;
+}
+.services{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+.services h3{
+   color: var(--aqua);
+    font-weight: 600;
+    font-size: var(--fontsizeslg);
+}
+.services h1{
+    font-weight: 600;
+    color: var(--purples);
+    font-size: var(--fontsizelg);
+}
+.services p{
+    color: var(--silver);
+    max-width: 800px;
+    font-weight: 600;
+    margin: 20px auto; 
+}
+.services h2{
+    font-size: 16px;
+    color: var(--silver);
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif !important;
+}
+.services_cards1{
+    width: 100%;
+    height: auto; 
+    margin-top: 60px;
+    
+}
+.services_cards1 .slider{
+    margin: auto;
+    width: 800px;
+}
+.services_cards1 .cards1{
+    height: auto;
+    background-color: white;
+    transition: .1s;
+    border: none;
+    margin-top: 50px;
+}
+.services_cards1 .cards1:hover{
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);   
+}
+
+.services_cards1 .cards1 h3{
+    color: black;
+    font-weight: 600;
+    font-size: var(--fontsizeslg);
+}
+.services_cards1 .cards1 h3:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 2px;
+    background: #399ed7;
+    background: -moz-linear-gradient(left, #399ed7 0%, #2553ac 100%);
+    background: -webkit-linear-gradient(left, #399ed7 0%, #2553ac 100%);
+    background: linear-gradient(to right, #399ed7 0%, #2553ac 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#399ed7', endColorstr='#2553ac', GradientType=1);
+    margin: 20px 0px;
+}
+.services_cards1 .cards1 p{
+    font-size: 17px;
+    font-weight: 600;
+  
+}
+.services_cards1 .cards1 a{
+    font-size: 17px;
+    font-weight: 600;
+}
+.services_cards1 .cards1 a .circle .cards-img{
+    margin-bottom: 2px;
+    width: 20px;
+}
+.services_cards1 .cards1 a .circle{
+    transition: .5s;
+}
+.services_cards1 .cards1 a .circle:hover{
+    width: 30px;
+    height: 20px;
+    border: 1px solid var(--aqua);
+    border-radius: 100%;
+}
+.ineer_section{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.ineer_section h3{
+   color: var(--aqua);
+    font-weight: 600;
+    font-size: var(--fontsizeslg);
+}
+.ineer_section p{
+    font-weight: 600;
+    color: var(--purples);
+    font-size: 48px;
+    line-height: 58px;
+}
+.ineer_section img{
+    margin: auto;
+   display: flex;
+    width: 850px;
+    height: 556px;
+}
+.services_bg{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    min-height: auto;
+    background: #041f65 url(../home/imagesOUR/banner-overlay.png);
+    padding-bottom: 100px;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.services_bg h3{
+    padding-top: 50px;
+    color: var(--aqua);
+    font-weight: 500;
+    font-size: 25px;
+}
+.services_bg h1{
+    padding-top: 10px;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 45px;
+}
+.services_bg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.services_bg button{
+    margin-top: 30px;
+    background: var(--backgroundgr); 
+    background: -moz-linear-gradient(left, var(--backgroundlgr) 0%, var(--backgrounddlg) 100%);
+    background: -webkit-linear-gradient(left, var(--backgroundlgr) 0%, var(--backgrounddlg) 100%); 
+    border-radius: 6px;
+    min-width: 270px;
+    height: 65px;
+    text-transform: capitalize;
+    font-size: var(--fontsizemd);
+    font-weight: lighter;
+}
+.contant_section{
+    width: 100%;
+    height: 650px;
+}
+.contant_section h3{
+    font-weight: 600;
+    font-size: var(--fontsizeslg);
+}
+.contant_section h1{
+    font-weight: 600;
+    color: var(--purples);
+    font-size: var(--fontsizelg);
+}
+.contant_section p{
+    color: var(--silver);
+    max-width: 800px;
+    margin: 20px auto; 
+    font-weight: 600;
+}
+.contant_section .trusted_clients {
+    text-align: center;
+    padding-top: 20px;
+}
+.contant_section a{
+    font-size: 22px;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.contant_section a .circle{
+    transition: .3s;
+}
+.contant_section a .circle:hover{
+    width: 50px;
+    margin-top: 10px;
+    padding: 0 3px 0 3px;
+    height: 40px;
+    border: 1px solid var(--green);
+    border-radius: 100%;
+}
+.m-cards{
+    width: 100%;
+    height: auto;
+}
+.m-cards h1{
+    width: 540px;
+   margin: auto;
+    margin-top: 20px;
+   font-weight: 600;
+   color: var(--purples);
+   font-size: var(--fontsizelg);
+}
+.m-cards{
+    padding-top: 25px !important;
+}
+.m-cards .set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 20px !important;
+}
+.m-cards .set-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #ecf1fc;
+    width: 122px;
+    height: 122px;
+}
+.m-cards .use-is{
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--purples);
+}
+.m-cards .set p{
+    
+    color: #7c89a1;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5!important;
+    padding-top: 8px;
+}
+.services_end{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+.services_end h1{
+    font-weight: 600;
+    color: var(--purples);
+    font-size: var(--fontsizelg);
+}
+.services_end p{
+    color: var(--silver);
+    max-width: 800px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px auto; 
+}
+.services_end a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.services_end button{
+    margin-top: 10px;
+    background: var(--backgroundgr); 
+    background: -moz-linear-gradient(left, var(--backgroundlgr) 0%, var(--backgrounddlg) 100%);
+    background: -webkit-linear-gradient(left, var(--backgroundlgr) 0%, var(--backgrounddlg) 100%); 
+    border-radius: 6px;
+    min-width: 270px;
+    height: 65px;
+    text-transform: capitalize;
+    font-size: var(--fontsizemd);
+}
+@media screen and (min-width:320px) and (max-width:600px){
+    .services h1{
+        font-size: 24px;
+    }
+    .services_cards1 .slider{
+        margin: auto;
+        width: 100%;
+    }
+    .ineer_section p{
+        font-size: 24px;
+        line-height: 34px ;
+    }
+    .ineer_section img{
+        width: 100%;
+        height: 100%;
+    }
+    .services_bg h3{
+        font-size: 21px;
+    }
+    .services_bg h1{
+        font-size: 24px;
+    }
+    .contant_section{
+       
+        height: 440px;
+    }
+    .contant_section h1{
+        font-size: 30px;
+    }
+    .contant_section .video{
+        width: 100%;
+    }
+    .m-cards h1{
+        font-size: 24px;
+    }
+    .services_end{
+        margin-top: 50px;
+    }
+    .services_end h1{
+        font-weight: 600;
+        color: var(--purples);
+        font-size: 24px;
+    }
+    
+
+}
+@media screen and (min-width:411px) and (max-width:823px){
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .services h1{
+        font-size: 24px;
+    }
+    .services_cards1 .slider{
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    .ineer_section p{
+        font-size: 24px;
+        line-height: 34px ;
+    }
+    .ineer_section img{
+        width: 100%;
+        height: 100%;
+    }
+    .services_bg h3{
+        font-size: 21px;
+    }
+    .services_bg h1{
+        font-size: 24px;
+    }
+    .contant_section{
+       
+        height: 530px;
+    }
+    .contant_section h1{
+        font-size: 30px;
+    }
+    .contant_section .video{
+        width: 100%;
+    }
+    .m-cards h1{
+        font-size: 24px;
+    }
+    .services_end{
+        margin-top: 50px;
+    }
+    .services_end h1{
+        font-weight: 600;
+        color: var(--purples);
+        font-size: 25px;
+    }
+    .services_end p{
+        width: 500px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1240px){
+
+}

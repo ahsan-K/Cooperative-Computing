@@ -1,0 +1,88 @@
+.careers-main{
+    margin-top: 60px;
+    background-image: url("../home/imagesCAR/career_bg.jpg");
+    height: 500px;
+}
+.careers-main .banner1{
+    padding-top: 140px;
+}
+.careers-main .banner1 h4{
+    color: #2aa9e0;
+    font-weight: 300;
+}
+.careers-main .banner1 h1{
+    color: #fff;
+    font-weight: 450;
+    font-size: 2.6rem;
+}
+.careers-main .banner1 p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.careers-main1 .banner1{
+    padding-top: 80px;
+}
+.careers-main1 .banner1 h1{
+    color: #1f276e;
+    font-weight: 450;
+}
+.careers-main1 .banner1 h6{
+    color: #2aa9e0;
+    font-weight: 700;
+}
+.careers-main1 .banner1 .border1{
+    border-bottom:solid 1px #eee;
+    margin: 25px 0;
+}
+.careers-main1 .banner1 .p{
+    color: #2aa9e0;
+    font-size: 1.4rem;
+}
+.careers-main1 .banner2{
+    padding-top: 180px;
+}
+.careers-main1 .banner3{
+    padding: 0 40px;
+}
+.careers-main1 .banner3 p{
+    font-size: 1.1rem;
+    color: gray;
+}
+.careers-main2{
+    background-color: rgba(51, 71, 177, 0.80);
+    height: 350px;
+}
+.careers-main2 .banner1{
+    padding-top: 80px;
+}
+.careers-main2 .banner1 h1{
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 360;
+}
+.careers-main2 .banner1 p{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.careers-main2 .banner1 button{
+    height: 60px;
+    width: 250px;
+    color: #fff;
+    background-color: #45ba5e;
+    border: none;
+    border-radius: 5%;
+}
+@media only screen and (min-width: 300px) and (max-width:1024px){
+    .careers-main{
+        height: auto !important;
+    }
+    .careers-main .banner1{
+        padding: 50px 0 !important;
+    }
+    .careers-main2{
+        height: auto !important;
+    }
+    .careers-main2 .banner1{
+        padding: 50px 0 !important;
+    }
+}

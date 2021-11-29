@@ -425,7 +425,7 @@
   }
 }
 .hero{
-  background-image: url("../../home/imagesS4/banner.jpg");
+  background-image: url("../../imagesS4/banner.jpg");
   background-size: cover;
   margin-top: 50px;
 }
@@ -521,7 +521,7 @@
   color: white;
 }
 .hero1{
-  background-image: url("../../home/imagesS4/banner2.jpg");
+  background-image: url("../../imagesS4/banner2.jpg");
   background-size: cover;
   margin-top: 50px;
 }

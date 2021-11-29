@@ -140,7 +140,7 @@ button{
     margin-top: 40px;
     margin-bottom: 50px;
     min-height: auto;
-    background: #041f65 url(../home/imagesOUR/banner-overlay.png);
+    background: #041f65 url("./home/imagesOUR/banner-overlay.png");
     padding-bottom: 100px;
     background-position: center top;
     background-size: cover;

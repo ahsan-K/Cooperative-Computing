@@ -514,7 +514,7 @@
   color: white;
 }
 .hero1{
-  background-image: url("images/banner2.jpg");
+  background-image: url("../imagesA/banner2.jpg");
   background-size: cover;
   margin-top: 50px;
 }

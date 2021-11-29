@@ -20,16 +20,16 @@
     font-family: 'Roboto', sans-serif;
 }
 .start-main1{
-    background-image: url("../../home/imagesSOL1/start1.jpg");
+    background-image: url("../../imagesSOL1/start1.jpg");
     background-size: cover;
     height: 300px;
     margin-top: 50px;
 }
 .midsize-main1{
-    background-image: url("../../home/imagesSOL1/start2.jpg");
+    background-image: url("../../imagesSOL1/start2.jpg");
 }
 .enterprise{
-    background-image: url("../../home/imagesSOL1/start3.jpg");
+    background-image: url("../../imagesSOL1/start3.jpg");
 }
 .start-main1 .banner1{
     padding-top: 80px;
